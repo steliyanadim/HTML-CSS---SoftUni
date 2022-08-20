@@ -1,0 +1,17 @@
+/* TODO: Add the responsive styles here */
+@media (max-width: 600px) {
+    .tm-container-inner .row{
+        flex-direction: column;
+    }
+    html,
+        body {
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+    .container {
+        max-width: none;
+      }
+      .row.tm-header-inner .col-md-6.col-12.tm-nav{
+        flex-direction: row-reverse;
+    }
+}

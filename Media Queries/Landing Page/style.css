@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Open+Sans&display=swap');
+
+*{
+    margin: 0px 200px;
+}
+
+
+.header{
+display: flex;
+flex-flow: row wrap;
+justify-content: space-between;
+margin: 20px 200px 50px 200px;
+}
+
+.title_conteiner{ 
+}
+
+.title{
+    font-size: 49px;
+    color: 	rgb(191, 0, 255);
+    margin-bottom: 10px;
+}
+
+.subtitle{
+    font-family: Alumni Sans Pinstripe;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.navbar{
+    align-self: center;
+}
+
+.navbar a{
+    text-decoration: none;
+    padding: 0px 20px;
+    font-size: 22px;
+}
+
+.intro_conteiner{
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+margin-bottom: 80px;
+}
+
+.intro_conteiner div:nth-child(1){
+align-self: center;
+width: 730px;
+margin-right: 80px;
+}
+
+.intro_conteiner p{
+    margin: 35px 0px;
+    font-size: 24px;
+}
+
+.intro_title{
+    font-size: 42px;
+    font-weight: 500;
+}
+
+.intro_conteiner button{
+    padding: 8px 16px;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.team_conteiner h2{
+    text-align: center;
+    font-size: 42px;
+    font-weight: 500;
+}
+
+.title_border{
+    margin: 0 auto;
+    border-top: 4px solid black;
+    width: 100px;
+    margin-top: 25px;
+}
+
+.team_boxes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "team";
+}

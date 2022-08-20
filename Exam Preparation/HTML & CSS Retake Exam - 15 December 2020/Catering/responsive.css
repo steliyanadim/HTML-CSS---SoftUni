@@ -1,0 +1,33 @@
+/* TODO: Add the responsive styles here */
+
+
+@media (max-width: 600px){
+    .w3-right{
+        display: none;
+    }
+    
+    .w3-col.m6 .w3-round{
+         display: none; 
+    }
+    .w3-col {
+        float: none;
+    }
+
+    .w3-col.l6,
+    .w3-col.m6 {
+        width: 100%;
+    }
+    .w3-large {
+        font-size: 22px;
+    }
+    html, body {
+        font-size: 19px;
+    }
+    h1 {
+        font-size: 39px;
+    }
+    h4 {
+        font-size: 26px;
+    }
+    
+}

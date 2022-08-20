@@ -1,0 +1,63 @@
+body{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-areas: 
+    "welcome navbar"
+    "sidebar main"
+    "footer footer";
+    gap: 10px;
+}
+header,
+nav,
+aside,
+main,
+footer{
+    border-radius: 3px;
+    background-color: rgb(181, 216, 255);
+    padding: 5px 10px;
+}
+header h1{
+    grid-area: welcome;
+    height: 80px;
+}
+nav{
+    grid-area: navbar;
+}
+nav a{
+    text-decoration: none;
+    
+}
+aside{
+    grid-area: sidebar;
+}
+
+aside ul{
+    list-style-type: none;
+    text-indent: none;
+    padding-left: 0;
+    padding: 5px;
+}
+aside ul li a {
+    color: rgb(86, 40, 129);
+    text-decoration: none;
+}
+main{
+    grid-area: main;
+}
+
+footer{
+    height: 40px;
+    grid-area: footer;
+}
+
+@media (max-width: 500px) {
+    body{
+
+    }
+    h1{
+        display: block;
+    }
+    header{
+        margin-bottom: 5px;
+    }
+}
